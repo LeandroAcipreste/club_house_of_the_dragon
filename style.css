@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Fjalla One", sans-serif;
+}
+
+section, footer{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #fff4f4;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header{
+    padding: 24px 0;
+    background-color: #300000;
+    color: #bb8f00;
+}
+
+header .container {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header nav li{
+    margin-left: 10px;
+    display: inline;
+
+}
+
+header nav li a {
+    color: #bb8f00;
+    text-decoration: none;
+}
+
+section, footer {
+    margin-top: 16px;
+    color: #bb8f00;
+}
+
+.trailer1{
+    margin-top: 16px;
+    padding: 16px 0;
+    background-color:#6b0100;
+}
+
+.trailer2{
+    padding: 16px 10px;
+    background-color: #300000;
+}
+
+.temporada1{
+    margin: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-left: 10px;
+}
+
+section div iframe{
+    width: 600px;
+}
+
+
+.sinopse{
+    margin-left: 10px;
+    text-align: justify;
+    align-items: center;
+}
+
+.temporada2{
+    padding: 10px 0;
+    display: flex;
+}
+
+.personagens{
+    margin-top: 16px;
+    padding: 10px 0;
+    background-color: #6b0100;
+}
+.personagem{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.personagem img{
+    height:  240px;
+}
+
+.personagem .sobre{
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.enrollment-club{
+    padding: 10px;
+    background-color: #6b0100;
+    margin-top: 10px;
+    
+}
+
+.enrollment-club h2{
+    margin-left: 15px;
+}
+#events{
+    margin-top: 16px;
+    background-color: #300000;
+}
+
+#events h2 {
+    padding-top: 10px;
+}
+
+section table{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+section table td img{
+    margin: 15px 0;
+}
+
+section .events img {
+    width: 420px;
+    height: 480px;
+}
+
+
+
+section div form{
+    margin-left: 16px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input{
+    height: 36px;
+}
+
+form button{
+    width: 160px;
+    height: 36px;
+    background-color: #300000;
+    color: #bb8f00;
+    border: none;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background-color: #bb8f00;
+    color: #300000;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+
+section div form input {
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer .social-media h3{
+    padding-left: 16px;
+    padding-bottom: 5px;
+}
+
+footer .social-media li a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.checkbox-whats-app input{
+    display: inline-table;
+}
+
+#contact{
+    display: flex;
+    background-color: #6b0100;
+}
+
+.social-media{
+    margin: 16px 0;
+    padding: 16px 0;
+    background-color: #300000 ;
+}
+
+.social-media table{
+    text-align: center;
+}
+
